@@ -1,43 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Expenses chart component</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <div class="box-1">
+          <div>
+            <p>My balance</p>
+            <h3>$921.48</h3>
+          </div>
+          <img src="images/logo.svg" alt="" />
+        </div>
+        <div class="box-2">
+          <h1>Spending - Last 7 days</h1>
+          <div class="chart">
+            <div class="chart-data">
+              <div class="day">
+                <div class="content">$<span></span></div>
+              </div>
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Expenses chart component</title>
+              <div class="day">
+                <div class="content">$<span></span></div>
+              </div>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
+              <div class="day">
+                <div class="content">$<span></span></div>
+              </div>
 
-  My balance
-  $921.48
+              <div class="day">
+                <div class="content">$<span></span></div>
+              </div>
 
-  Spending - Last 7 days
+              <div class="day">
+                <div class="content">$<span></span></div>
+              </div>
 
-  mon
-  tue
-  wed
-  thu
-  fri
-  sat
-  sun
+              <div class="day">
+                <div class="content">$<span></span></div>
+              </div>
 
-  Total this month
-  $478.33
+              <div class="day">
+                <div class="content">$<span></span></div>
+              </div>
+            </div>
+            <ul>
+              <li>mon</li>
+              <li>tue</li>
+              <li>wed</li>
+              <li>thu</li>
+              <li>fri</li>
+              <li>sat</li>
+              <li>sun</li>
+            </ul>
+          </div>
+          <div class="line"></div>
+          <div class="profit-container">
+            <p>Total this month</p>
+            <div class="profit-wrapper">
+              <h3>$478.33</h3>
+              <div class="profit">
+                <p>+2.4%</p>
+                <p>from last month</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
-  +2.4%
-  from last month
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="https://github.com/Aur71">Aurel</a>.
+      </div>
+    </main>
+  </body>
 </html>
