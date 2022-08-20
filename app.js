@@ -1,4 +1,4 @@
-const url = '/data.json';
+const url = 'data.json';
 const day = document.querySelectorAll(".day");
 const span = document.querySelectorAll("span");
 const li = document.querySelectorAll("li");
